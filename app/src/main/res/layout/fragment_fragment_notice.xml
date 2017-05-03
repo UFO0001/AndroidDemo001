@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.demo.androidlearn01.FragmentNotice">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="实现发送通知功能"
+        android:background="#FEBC21"
+        android:textColor="#FFF"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/btn_fragment_notice"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="发送通知"
+        android:textColor="#FFF"
+        android:background="#FEBC21"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        />
+
+</LinearLayout>

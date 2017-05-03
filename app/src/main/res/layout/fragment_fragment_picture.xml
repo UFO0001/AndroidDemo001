@@ -1,0 +1,45 @@
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.demo.androidlearn01.FragmentPicture">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        app:layout_widthPercent="100%"
+        app:layout_heightPercent="7%"
+        android:text="拍照上传"
+        android:gravity="center"
+        android:background="#FF0"
+        android:textColor="#FFF"
+        />
+    <ImageView
+        android:id="@+id/image"
+        app:layout_widthPercent="70%"
+        app:layout_heightPercent="30%"
+        app:layout_marginTopPercent="15%"
+        app:layout_marginLeftPercent="15%"
+        />
+    <Button
+        android:id="@+id/btn_image"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="50%"
+        app:layout_marginLeftPercent="25%"
+        android:background="#FF0"
+        android:text="拍射照片"
+        android:textColor="#FFF"
+        />
+    <Button
+        android:id="@+id/btn_imagechoose"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="70%"
+        app:layout_marginLeftPercent="25%"
+        android:background="#FF0"
+        android:text="相册选取"
+        android:textColor="#00F"
+        />
+
+</android.support.percent.PercentRelativeLayout>

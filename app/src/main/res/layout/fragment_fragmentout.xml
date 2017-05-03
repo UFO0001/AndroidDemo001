@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.demo.androidlearn01.Fragmentout">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="实现强制下线功能"
+        android:background="#CF00FF"
+        android:textColor="#FFF"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/btn_out"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="退出程序"
+        android:textColor="#FFF"
+        android:background="#CF00FF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="520dp"
+        />
+
+</LinearLayout>
