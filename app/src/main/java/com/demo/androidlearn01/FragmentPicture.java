@@ -136,7 +136,7 @@ public class FragmentPicture extends Fragment {
 
             case TAKE_PHOTO:
                 Log.d("照requestCode",requestCode+"");
-                if(resultCode == RESULT_OK){
+               // if(resultCode == -1){
                     //将照片显示出来
                     Bitmap bitmap = null;
                     try {
@@ -145,12 +145,12 @@ public class FragmentPicture extends Fragment {
                     } catch (FileNotFoundException e) {
                         e.printStackTrace();
                     }
-                }
+              //  }
                 break;
             case CHOOSE_PHOTO:
                 Log.d("照片","到这里了000002-1");
                 Log.d("照片requestCode",requestCode+"");
-                if(requestCode == 2) {
+               // if(requestCode == 2) {
                     Log.d("照片","到这里了000002");
                     //判断系统版本号
                     if (Build.VERSION.SDK_INT >= 19) {
@@ -162,7 +162,8 @@ public class FragmentPicture extends Fragment {
                         //4.4以下系统使用这个方法处理图片
                         handleImageBeforeKitKat(data);
                     }
-                }
+               //
+                // }
                 break;
             default:
                 Log.d("照片","到这里了000003");

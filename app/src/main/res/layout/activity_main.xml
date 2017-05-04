@@ -60,7 +60,7 @@
         />
     <Button
         android:id="@+id/btn_07"
-        android:text="07"
+        android:text="可折叠式标题栏"
         android:background="#FF33aa"
         app:layout_widthPercent="30%"
         app:layout_heightPercent="12.5%"

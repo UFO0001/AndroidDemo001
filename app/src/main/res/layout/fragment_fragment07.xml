@@ -7,7 +7,31 @@
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="07" />
+        android:layout_height="40dp"
+        android:text="可折叠式标题栏"
+        android:background="#FF33aa"
+        android:textColor="#FFF"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv_zhediemiaoshu"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="可折叠式标题栏描述"
+        android:background="#FFF"
+        android:textColor="#FF33aa"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        />
+    <Button
+        android:id="@+id/btn_fragment_zhedie"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:text="效果预览fragment-activity跳转"
+        android:textColor="#FFF"
+        android:background="#FF33aa"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="400dp"
+        />
 
 </FrameLayout>

@@ -1,13 +1,17 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.percent.PercentFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.demo.androidlearn01.Fragment01">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="01" />
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:layout_widthPercent = "100%"
+        app:layout_heightPercent = "8%"
+        android:background="#F00"
 
-</FrameLayout>
+        />
+
+</android.support.percent.PercentFrameLayout>
