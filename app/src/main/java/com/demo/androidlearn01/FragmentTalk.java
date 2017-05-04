@@ -1,11 +1,14 @@
 package com.demo.androidlearn01;
 
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -13,6 +16,7 @@ import android.view.ViewGroup;
  */
 public class FragmentTalk extends Fragment {
 
+    private Button btn_fragment_talk;
 
     public FragmentTalk() {
         // Required empty public constructor
@@ -26,4 +30,15 @@ public class FragmentTalk extends Fragment {
         return inflater.inflate(R.layout.fragment_fragment_talk, container, false);
     }
 
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        btn_fragment_talk = (Button) getActivity().findViewById(R.id.btn_fragment_talk);
+        btn_fragment_talk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),TalkActivity.class));
+            }
+        });
+    }
 }

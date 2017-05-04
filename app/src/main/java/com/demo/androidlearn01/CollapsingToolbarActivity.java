@@ -40,7 +40,7 @@ public class CollapsingToolbarActivity extends AppCompatActivity {
     }
     private  String generateFruitContent(String fruitName){
         StringBuilder fruitContent = new StringBuilder();
-        for(int i = 0;i<500;i++){
+        for(int i = 0;i<500;i++){//
             fruitContent.append(fruitName);
         }
         return  fruitContent.toString();
